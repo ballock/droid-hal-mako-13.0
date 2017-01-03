@@ -10,4 +10,7 @@
 
 %define enable_kernel_update 1
 
+%define use_generic_obexd_configs 1
+%define use_generic_bluez4_configs 1
+
 %include rpm/dhd/droid-hal-device.inc
